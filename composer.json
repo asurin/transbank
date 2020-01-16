@@ -1,0 +1,24 @@
+{
+    "name": "asurin/transbank",
+    "description": "SDK para webservices de transbank (Webpay Plus, Webpay OneClick, Webpay PatPass) (Renamed from original root name of freshwork so that composer picks this customized for up over the original)",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Gonzalo De Spirito",
+            "email": "gonzalo@freshworkstudio.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Freshwork\\Transbank\\": "src/"
+        },
+        "classmap": [
+            "src/wss"
+        ]
+    },
+    "require": {
+
+    },
+    "minimum-stability": "dev"
+
+}
